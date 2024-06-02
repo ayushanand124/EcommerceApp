@@ -66,6 +66,4 @@ Responsibilities:
 Outcome:
 Successfully developed a robust e-commerce application that demonstrates proficiency in Android development, Firebase integration, and modern app development practices. The app provides a seamless user experience for product browsing and management.
 
----
-
-Feel free to modify any parts of this description to better suit your needs or to reflect additional details specific to your project.
+-
