@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="2dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_marginTop="4dp">
+        <ImageView
+            android:id="@+id/product_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/text_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="8dp"
+            android:text="IPhone14"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/text_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price:70,999"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/text_product_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description:This is brand new iphone by apple"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
